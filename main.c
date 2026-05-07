@@ -11,10 +11,10 @@ int main()
     scanf("%d",&a);
     printf("Ingrese 2do número:");
     scanf("%d",&b);
-    printf("El resultado de la suma es: %d", sumar(a,b));
-    printf("El resultado de la resta es:%d", restar(a,b));
-    printf("El resultado de la multiplicacion es:%d", multiplicacion(a,b));
-    printf("El resultado de la division es:%d", dividir(a,b));
+    printf("El resultado de la suma es: %d\n", sumar(a,b));
+    printf("El resultado de la resta es:%d\n", restar(a,b));
+    printf("El resultado de la multiplicacion es:%d\n", multiplicacion(a,b));
+    printf("El resultado de la division es:%d\n", dividir(a,b));
     return 0;
 
 }
